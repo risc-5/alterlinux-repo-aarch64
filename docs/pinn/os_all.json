@@ -1,0 +1,1802 @@
+{
+  "os_list" : [
+        {
+            "os_name":	    "AIYprojects",
+            "description":  "Raspbian image for Google Assistant projects",
+            "release_date": "2017-05-03",
+            "feature_level": 0,
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082",
+            "supported_models": [
+              "Pi Model",
+              "Pi 2",
+              "Pi Zero Rev",
+              "Pi Zero W Rev",
+              "Pi 3 Model B Rev"
+            ],
+            "supports_usb_boot": false,
+            "url": "https://aiyprojects.withgoogle.com",
+            "group": "General",
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/AIYprojects/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/AIYprojects/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/AIYprojects/AIYprojects.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/AIYprojects/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/AIYprojects/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/AIYprojects/boot_aiy.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/AIYprojects/root_aiy.tar.xz"
+            ],
+            "nominal_size": 3088
+        }
+,
+        {
+            "os_name":	    "Arch1",
+            "description":  "An Arch Linux port for ARM devices RPi0/1",
+            "release_date": "2020-03-03",
+            "feature_level": 35644412,
+            "supported_models": [
+                "Pi Model",
+                "Pi Compute Module",
+                "Pi Zero W Rev",
+                "Pi Zero Rev"
+            ],
+            "supports_backup": "update",
+            "url":      "https://archlinuxarm.org/platforms/armv6/raspberry-pi",
+            "group":    "Minimal",
+            "download_size":    465969133,
+            "os_info":          "http://downloads.sourceforge.net/project/pinn/os/Arch1/os.json",
+            "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/Arch1/partitions.json",
+            "icon":             "http://downloads.sourceforge.net/project/pinn/os/Arch1/Arch1.png",
+            "marketing_info":   "http://downloads.sourceforge.net/project/pinn/os/Arch1/marketing.tar",
+            "partition_setup":  "http://downloads.sourceforge.net/project/pinn/os/Arch1/partition_setup.sh",
+            "tarballs": [
+                                "http://downloads.sourceforge.net/project/pinn/os/Arch1/boot_arch.tar.xz",
+                                "http://archlinuxarm.org/os/ArchLinuxARM-rpi-latest.tar.gz"
+            ],
+            "nominal_size": 1331
+        }
+,
+        {
+            "os_name":	    "Arch2",
+            "description":  "An Arch Linux port for ARM devices RPi2/3",
+            "release_date": "2018-01-28",
+            "feature_level": 0,
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+                "Pi 2",
+                "Pi 3"
+            ],
+            "supports_backup": "update",
+            "url":      "https://archlinuxarm.org/platforms/armv6/raspberry-pi",
+            "group":    "Minimal",
+            "download_size":    466759248,
+            "os_info":          "http://downloads.sourceforge.net/project/pinn/os/Arch2/os.json",
+            "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/Arch2/partitions.json",
+            "icon":             "http://downloads.sourceforge.net/project/pinn/os/Arch2/Arch2.png",
+            "marketing_info":   "http://downloads.sourceforge.net/project/pinn/os/Arch2/marketing.tar",
+            "partition_setup":  "http://downloads.sourceforge.net/project/pinn/os/Arch2/partition_setup.sh",
+            "tarballs": [
+                                "http://downloads.sourceforge.net/project/pinn/os/Arch2/boot_arch.tar.xz",
+                                "http://archlinuxarm.org/os/ArchLinuxARM-rpi-2-latest.tar.gz"
+            ],
+            "nominal_size": 1330
+        }
+,
+        {
+            "os_name":	    "Arch4",
+            "description":  "An Arch Linux port for ARM devices RPi3",
+            "release_date": "2020-03-03",
+            "feature_level": 0,
+            "supported_models": [
+                "Pi 4"
+            ],
+            "supports_backup": "update",
+            "url":              "http://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-4",
+            "group":            "Minimal",
+            "download_size":    467365718,
+            "os_info":          "http://downloads.sourceforge.net/project/pinn/os/Arch4/os.json",
+            "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/Arch4/partitions.json",
+            "icon":             "http://downloads.sourceforge.net/project/pinn/os/Arch4/Arch4.png",
+            "marketing_info":   "http://downloads.sourceforge.net/project/pinn/os/Arch4/marketing.tar",
+            "partition_setup":  "http://downloads.sourceforge.net/project/pinn/os/Arch4/partition_setup.sh",
+            "tarballs": [
+                                "http://downloads.sourceforge.net/project/pinn/os/Arch4/boot_arch.tar.xz",
+                                "http://archlinuxarm.org/os/ArchLinuxARM-rpi-4-latest.tar.gz"
+            ],
+            "nominal_size": 1332
+        }
+,
+        {
+            "os_name":	    "CStemBian",
+            "description":  "Learn C-STEM and robotics from UC-Davis RPi0/1/2/3",
+            "release_date": "2017-03-18",
+            "feature_level": 0,
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082",
+            "supported_models": [
+              "Pi Model",
+              "Pi 2",
+              "Pi Zero Rev",
+              "Pi 3 Model B Rev"
+            ],
+            "url":             "http://c-stem.ucdavis.edu/",
+            "group":           "Education",
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/CStemBian/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/CStemBian/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/CStemBian/CStemBian.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/CStemBian/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/CStemBian/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/CStemBian/boot_cstem.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/CStemBian/root_cstem.tar.xz"
+            ],
+            "nominal_size": 4112
+        }
+,
+        {
+            "os_name":	    "devuan1",
+            "description":  "A devuan1 Linux port for ARM devices RPi0/1",
+            "release_date": "2018-06-06",
+            "feature_level": 35644412,
+            "supported_models": [
+                "Pi Model",
+                "Pi Compute Module",
+              "Pi Zero W Rev",
+                "Pi Zero Rev"
+            ],
+            "group":           "Minimal",
+            "download_size":    146116780,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/testing/devuan1/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/testing/devuan1/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/testing/devuan1/devuan1.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/testing/devuan1/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/testing/devuan1/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/testing/devuan1/boot_dev.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/testing/devuan1/root_dev.tar.xz"
+            ],
+            "nominal_size": 720
+        }
+,
+        {
+            "os_name":	    "devuan2",
+            "description":  "A devuan2 Linux port for ARM devices RPi2/3",
+            "release_date": "2018-06-06",
+            "feature_level": 0,
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+                "Pi 2"
+            ],
+            "group":           "Minimal",
+            "download_size":    151935576,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/testing/devuan2/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/testing/devuan2/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/testing/devuan2/devuan2.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/testing/devuan2/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/testing/devuan2/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/testing/devuan2/boot_dev.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/testing/devuan2/root_dev.tar.xz"
+            ],
+            "nominal_size": 708
+        }
+,
+        {
+            "os_name":	    "devuan3",
+            "description":  "A devuan3 Linux port for ARM devices RPi2/3",
+            "release_date": "2018-06-06",
+            "feature_level": 0,
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+                "Pi 3"
+            ],
+            "group":           "Minimal",
+            "download_size":    153616860,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/testing/devuan3/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/testing/devuan3/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/testing/devuan3/devuan3.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/testing/devuan3/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/testing/devuan3/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/testing/devuan3/boot_dev.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/testing/devuan3/root_dev.tar.xz"
+            ],
+            "nominal_size": 762
+        }
+,
+        {
+            "os_name":	    "hypriotos",
+            "description":  "A hypriotos Linux port for ARM devices RPi0/1",
+            "release_date": "2017-03-19",
+            "feature_level": 35644412,
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,0d,0e,0f,10,11,12,13,14,1040,1041,2042,2082,20a0",
+            "supported_models": [
+                "Pi Model",
+                "Pi Compute Module",
+                "Pi Zero Rev",
+              "Pi Zero W Rev",
+                "Pi 2",
+                "Pi 3 Model B Rev"
+            ],
+            "url": "https://blog.hypriot.com",
+            "group": "General",
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/hypriotos/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/hypriotos/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/hypriotos/hypriotos.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/hypriotos/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/hypriotos/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/hypriotos/boot_hyp.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/hypriotos/root_hyp.tar.xz"
+            ],
+            "nominal_size": 927
+        }
+
+,
+        {
+            "os_name": "kali1",
+            "description": "Kali Linux v2.1.2 for RPI1",
+            "release_date": "2016-08-31",
+            "feature_level": 35644412,
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,13,14,19,0092",
+            "supported_models": [
+                "Pi Model",
+                "Pi Compute Module",
+              "Pi Zero W Rev",
+                "Pi Zero Rev"
+            ],
+            "url":              "https://www.kali.org/",
+            "group":            "General",
+            "os_info":          "http://downloads.sourceforge.net/project/pinn/os/kali1/os.json",
+            "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/kali1/partitions.json",
+            "icon":             "http://downloads.sourceforge.net/project/pinn/os/kali1/kali1.png",
+            "marketing_info":   "http://downloads.sourceforge.net/project/pinn/os/kali1/marketing.tar",
+            "partition_setup":  "http://downloads.sourceforge.net/project/pinn/os/kali1/partition_setup.sh",
+            "tarballs": [
+                                "http://downloads.sourceforge.net/project/pinn/os/kali1/boot_kali.tar.xz",
+                                "http://downloads.sourceforge.net/project/pinn/os/kali1/root_kali.tar.xz"
+            ],
+            "nominal_size": 6765
+        }
+
+,
+        {
+            "os_name": "kali2",
+            "description": "Kali Linux v2.1.2 for RPI2/3",
+            "release_date":    "2017-02-23",
+            "feature_level":   0,
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+               "Pi 2",
+               "Pi 3 Model B Rev"
+            ],
+            "url":              "https://www.kali.org/",
+            "group":            "General",
+            "os_info":          "http://downloads.sourceforge.net/project/pinn/os/kali2/os.json",
+            "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/kali2/partitions.json",
+            "icon":             "http://downloads.sourceforge.net/project/pinn/os/kali2/kali2.png",
+            "marketing_info":   "http://downloads.sourceforge.net/project/pinn/os/kali2/marketing.tar",
+            "partition_setup":  "http://downloads.sourceforge.net/project/pinn/os/kali2/partition_setup.sh",
+            "tarballs": [
+                                "http://downloads.sourceforge.net/project/pinn/os/kali2/boot_kali.tar.xz",
+                                "http://downloads.sourceforge.net/project/pinn/os/kali2/root_kali.tar.xz"
+            ],
+            "nominal_size": 6765
+        }
+,
+        {
+            "os_name":                 "Kali_Linux_Full_(32-bit)",
+            "description":             "A port of 32-bit Kali Linux for Pi 2 through 4 with desktop and recommended applications",
+            "release_date":            "2020-12-17",
+            "group" :                  "General",
+            "download_size":           1993287180,
+            "supported_models": [
+                "Pi 2",
+                "Pi 3",
+                "Pi 4",
+                "Pi 400"
+            ],
+            "supports_backup":         true,
+            "supports_usb_boot":       true,
+            "supports_sda_boot":       true,
+            "supports_sda_root":       true,
+            "url":                     "https://www.kali.org/",
+            "icon":                    "http://downloads.sourceforge.net/project/pinn/os/kali20.04-32/Kali_Linux_Full_(32-bit).png",
+            "os_info":                 "http://downloads.sourceforge.net/project/pinn/os/kali20.04-32/os.json",
+            "partitions_info":         "http://downloads.sourceforge.net/project/pinn/os/kali20.04-32/partitions.json",
+            "marketing_info":          "http://downloads.sourceforge.net/project/pinn/os/kali20.04-32/marketing.tar",
+            "partition_setup":         "http://downloads.sourceforge.net/project/pinn/os/kali20.04-32/partition_setup.sh",
+            "tarballs" : [
+                "http://downloads.sourceforge.net/project/pinn/os/kali20.04-32/Kali32boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn/os/kali20.04-32/Kali32root.tar.xz"
+            ],
+            "nominal_size": 8540
+        }
+,
+        {
+            "os_name":                 "Kali_Linux_Full_(64-bit)",
+            "description":             "A port of 64-bit Kali Linux for Pi 2 through 4 with desktop and recommended applications",
+            "release_date":            "2020-12-17",
+            "group" :                  "General",
+            "download_size":           2031796648,
+            "supported_models": [
+                "Pi 2 v1.2",
+                "Pi 3",
+                "Pi 4",
+                "Pi 400"
+            ],
+            "supports_backup":         true,
+            "supports_usb_boot":       true,
+            "supports_sda_boot":       true,
+            "supports_sda_root":       true,
+            "url":                     "https://www.kali.org/",
+            "icon":                    "http://downloads.sourceforge.net/project/pinn/os/kali20.04-64/Kali_Linux_Full_(64-bit).png",
+            "os_info":                 "http://downloads.sourceforge.net/project/pinn/os/kali20.04-64/os.json",
+            "partitions_info":         "http://downloads.sourceforge.net/project/pinn/os/kali20.04-64/partitions.json",
+            "marketing_info":          "http://downloads.sourceforge.net/project/pinn/os/kali20.04-64/marketing.tar",
+            "partition_setup":         "http://downloads.sourceforge.net/project/pinn/os/kali20.04-64/partition_setup.sh",
+            "tarballs" : [
+                "http://downloads.sourceforge.net/project/pinn/os/kali20.04-64/Kali64boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn/os/kali20.04-64/Kali64root.tar.xz"
+            ],
+            "nominal_size": 8006
+        }
+,
+        {
+            "os_name":	    "lede2RPi1",
+            "description":  "lede2RPi1 18.06.4 for the Raspberry Pi0/1 (open-wrt)",
+            "release_date": "2019-06-30",
+            "feature_level": 35644412,
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,13,14,19,0092",
+            "supported_models": [
+                "Pi Model",
+                "Pi Compute Module",
+                "Pi Zero W Rev",
+              "Pi Zero Rev"
+            ],
+            "supports_backup":  true,
+            "url":              "https://openwrt.org/",
+            "group":            "Minimal",
+            "download_size":    6453812,
+            "os_info":          "http://downloads.sourceforge.net/project/pinn/os/lede2RPi1/os.json",
+            "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/lede2RPi1/partitions.json",
+            "icon":             "http://downloads.sourceforge.net/project/pinn/os/lede2RPi1/lede2RPi1.png",
+            "marketing_info":   "http://downloads.sourceforge.net/project/pinn/os/lede2RPi1/marketing.tar",
+            "partition_setup":  "http://downloads.sourceforge.net/project/pinn/os/lede2RPi1/partition_setup.sh",
+            "tarballs": [
+                                "http://downloads.sourceforge.net/project/pinn/os/lede2RPi1/boot_lede1.tar.xz",
+                                "http://downloads.sourceforge.net/project/pinn/os/lede2RPi1/root_lede1.tar.xz"
+            ],
+            "nominal_size": 274
+        }
+,
+        {
+            "os_name":	    "lede2RPi2",
+            "description":  "lede2RPi2 18.06.4 for the Raspberry Pi2 (open-wrt)",
+            "release_date": "2019-07-01",
+            "feature_level": 0,
+            "supported_hex_revisions": "1040,1041",
+            "supported_models": [
+                "Pi 2"
+            ],
+            "supports_backup":  true,
+            "url":              "https://openwrt.org",
+            "group":            "Minimal",
+            "download_size":    6580192,
+            "os_info":          "http://downloads.sourceforge.net/project/pinn/os/lede2RPi2/os.json",
+            "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/lede2RPi2/partitions.json",
+            "icon":             "http://downloads.sourceforge.net/project/pinn/os/lede2RPi2/lede2RPi2.png",
+            "marketing_info":   "http://downloads.sourceforge.net/project/pinn/os/lede2RPi2/marketing.tar",
+            "partition_setup":  "http://downloads.sourceforge.net/project/pinn/os/lede2RPi2/partition_setup.sh",
+            "tarballs": [
+                                "http://downloads.sourceforge.net/project/pinn/os/lede2RPi2/boot_lede2.tar.xz",
+                                "http://downloads.sourceforge.net/project/pinn/os/lede2RPi2/root_lede2.tar.xz"
+            ],
+            "nominal_size": 274
+        }
+,
+        {
+            "os_name":	    "lede2RPi3",
+            "description":  "lede2RPi3 18.06.4 for the Raspberry Pi3 (open-wrt)",
+            "release_date": "2019-07-01",
+            "feature_level": 0,
+            "supported_hex_revisions": "2082",
+            "supported_models": [
+                  "Pi 3 Model B Rev"
+            ],
+            "supports_backup":  true,
+            "url":              "https://openwrt.org",
+            "group":            "Minimal",
+            "download_size":    6591452,
+            "os_info":          "http://downloads.sourceforge.net/project/pinn/os/lede2RPi3/os.json",
+            "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/lede2RPi3/partitions.json",
+            "icon":             "http://downloads.sourceforge.net/project/pinn/os/lede2RPi3/lede2RPi3.png",
+            "marketing_info":   "http://downloads.sourceforge.net/project/pinn/os/lede2RPi3/marketing.tar",
+            "partition_setup":  "http://downloads.sourceforge.net/project/pinn/os/lede2RPi3/partition_setup.sh",
+            "tarballs": [
+                                "http://downloads.sourceforge.net/project/pinn/os/lede2RPi3/boot_lede3.tar.xz",
+                                "http://downloads.sourceforge.net/project/pinn/os/lede2RPi3/root_lede3.tar.xz"
+            ],
+            "nominal_size": 274
+        }
+,
+        {
+            "os_name":	    "lineage16-rpi3",
+            "description":  "Lineage OS (KonstaKANG) 16.0 for RPi3",
+            "release_date": "2020-02-07",
+            "feature_level": 0,
+            "supported_hex_revisions": "2082",
+            "supported_models": [
+                "Pi 3 Model B Rev",
+                "Pi 3 Model B Plus Rev",
+                "Pi 3 Model A Plus Rev"
+            ],
+            "supports_usb_boot":       false,
+            "supports_usb_root":       false,
+            "supports_sda_boot":       true,
+            "supports_sda_root":       true,
+            "supports_backup": true,
+            "url":             "http://konstakang.com/devices/rpi3/",
+            "group":           "General",
+            "download_size":   338805268,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/lineage16-rpi3/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/lineage16-rpi3/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/lineage16-rpi3/lineage16-rpi3.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/lineage16-rpi3/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/lineage16-rpi3/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage16-rpi3/boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage16-rpi3/system.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage16-rpi3/vendor.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage16-rpi3/data.tar.xz"
+            ],
+            "nominal_size": 3968
+        }
+,
+        {
+            "os_name":	    "lineage16-rpi4",
+            "description":  "Lineage OS (KonstaKANG) 16.0 for RPi4",
+            "release_date": "2020-02-12",
+            "feature_level": 0,
+            "supported_hex_revisions": "2082",
+            "supported_models": [
+                "Pi 4 Model B Rev"
+            ],
+            "supports_usb_boot":       false,
+            "supports_usb_root":       false,
+            "supports_sda_boot":       true,
+            "supports_sda_root":       true,
+            "supports_backup": true,
+            "url":             "http://konstakang.com/devices/rpi4/",
+            "group":           "General",
+            "download_size":   333689384,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/lineage16-rpi4/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/lineage16-rpi4/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/lineage16-rpi4/lineage16-rpi4.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/lineage16-rpi4/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/lineage16-rpi4/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage16-rpi4/boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage16-rpi4/system.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage16-rpi4/vendor.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage16-rpi4/data.tar.xz"
+            ],
+            "nominal_size": 3968
+        }
+,
+        {
+            "os_name":	    "lineage17-rpi3",
+            "description":  "Lineage OS (KonstaKANG) 17.1 for RPi3",
+            "release_date": "2020-11-08",
+            "feature_level": 0,
+            "supported_hex_revisions": "2082",
+            "supported_models": [
+                "Pi 3 Model B Rev",
+                "Pi 3 Model B Plus Rev",
+                "Pi 3 Model A Plus Rev"
+            ],
+            "supports_usb_boot":       false,
+            "supports_usb_root":       false,
+            "supports_sda_boot":       true,
+            "supports_sda_root":       true,
+            "supports_backup": true,
+            "url":             "http://konstakang.com/devices/rpi3/",
+            "group":           "General",
+            "download_size":   349458596,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi3/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi3/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi3/lineage17-rpi3.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi3/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi3/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi3/boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi3/system.img.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi3/vendor.img.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi3/userdata.tar.xz"
+            ],
+            "nominal_size": 5230
+        }
+, 
+        {
+            "os_name":	    "lineage17-rpi4-atv",
+            "description":  "Lineage OS (KonstaKANG) 17.1 for RPi4",
+            "release_date": "2021-01-22",
+            "feature_level": 0,
+            "supported_hex_revisions": "2082",
+            "supported_models": [
+                "Pi Compute Module 4",
+                "Pi 4"
+            ],
+            "supports_usb_boot":       false,
+            "supports_usb_root":       false,
+            "supports_sda_boot":       true,
+            "supports_sda_root":       true,
+            "supports_backup": true,
+            "url":             "http://konstakang.com/devices/rpi4/",
+            "group":           "General",
+            "download_size":   274834752,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi4-atv/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi4-atv/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi4-atv/lineage17-rpi4-atv.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi4-atv/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi4-atv/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi4-atv/boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi4-atv/system.img.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi4-atv/vendor.img.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi4-atv/userdata.tar.xz"
+            ],
+            "nominal_size": 7024
+        }
+,
+        {
+            "os_name":	    "lineage17-rpi4",
+            "description":  "Lineage OS (KonstaKANG) 17.1 for RPi4",
+            "release_date": "2021-01-22",
+            "feature_level": 0,
+            "supported_hex_revisions": "2082",
+            "supported_models": [
+                "Pi Compute Module 4",
+                "Pi 4"
+            ],
+            "supports_usb_boot":       false,
+            "supports_usb_root":       false,
+            "supports_sda_boot":       true,
+            "supports_sda_root":       true,
+            "supports_backup": true,
+            "url":             "http://konstakang.com/devices/rpi4/",
+            "group":           "General",
+            "download_size":   361130812,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi4/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi4/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi4/lineage17-rpi4.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi4/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi4/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi4/boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi4/system.img.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi4/vendor.img.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage17-rpi4/userdata.tar.xz"
+            ],
+            "nominal_size": 7024
+        }
+,
+        {
+            "os_name":	    "lineage18-rpi4-atv",
+            "description":  "Lineage OS (KonstaKANG) 18.1 for RPi4",
+            "release_date": "2022-01-21",
+            "feature_level": 0,
+            "supported_hex_revisions": "2082",
+            "supported_models": [
+                "Pi Compute Module 4",
+                "Pi 4"
+            ],
+            "supports_usb_boot":       false,
+            "supports_usb_root":       false,
+            "supports_sda_boot":       true,
+            "supports_sda_root":       true,
+            "supports_backup": true,
+            "url":             "http://konstakang.com/devices/rpi4/",
+            "group":           "General",
+            "download_size":   392842876,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/lineage18-rpi4-atv/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/lineage18-rpi4-atv/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/lineage18-rpi4-atv/lineage18-rpi4-atv.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/lineage18-rpi4-atv/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/lineage18-rpi4-atv/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage18-rpi4-atv/boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage18-rpi4-atv/system.img.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage18-rpi4-atv/vendor.img.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage18-rpi4-atv/userdata.tar.xz"
+            ],
+            "nominal_size": 7032
+        }
+,
+        {
+            "os_name":	    "lineage18-rpi4",
+            "description":  "Lineage OS (KonstaKANG) 18.1 for RPi4",
+            "release_date": "2022-01-21",
+            "feature_level": 0,
+            "supported_hex_revisions": "2082",
+            "supported_models": [
+                "Pi Compute Module 4",
+                "Pi 4"
+            ],
+            "supports_usb_boot":       false,
+            "supports_usb_root":       false,
+            "supports_sda_boot":       true,
+            "supports_sda_root":       true,
+            "supports_backup": true,
+            "url":             "http://konstakang.com/devices/rpi4/",
+            "group":           "General",
+            "download_size":   483662184,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/lineage18-rpi4/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/lineage18-rpi4/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/lineage18-rpi4/lineage18-rpi4.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/lineage18-rpi4/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/lineage18-rpi4/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage18-rpi4/boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage18-rpi4/system.img.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage18-rpi4/vendor.img.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage18-rpi4/userdata.tar.xz"
+            ],
+            "nominal_size": 7032
+        }
+,
+        {
+            "os_name":	    "lineage19-rpi4-atv",
+            "description":  "Lineage OS ATV (KonstaKANG) 19.0 for RPi4",
+            "release_date": "2022-01-14",
+            "feature_level": 0,
+            "supported_hex_revisions": "2082",
+            "supported_models": [
+                "Pi Compute Module 4",
+                "Pi 4"
+            ],
+            "supports_usb_boot":       false,
+            "supports_usb_root":       false,
+            "supports_sda_boot":       true,
+            "supports_sda_root":       true,
+            "version":                 "19.0",
+            "supports_backup": true,
+            "url":             "http://konstakang.com/devices/rpi4/",
+            "group":           "General",
+            "download_size":   401231816,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4-atv/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4-atv/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4-atv/lineage19-rpi4-atv.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4-atv/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4-atv/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4-atv/boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4-atv/system.img.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4-atv/vendor.img.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4-atv/userdata.tar.xz"
+            ],
+            "nominal_size": 6958
+        }
+,
+        {
+            "os_name":	    "lineage19-rpi4",
+            "description":  "Lineage OS (KonstaKANG) 19.0 for RPi4",
+            "release_date": "2022-01-14",
+            "feature_level": 0,
+            "supported_hex_revisions": "2082",
+            "supported_models": [
+                "Pi Compute Module 4",
+                "Pi 4"
+            ],
+            "supports_usb_boot":       false,
+            "supports_usb_root":       false,
+            "supports_sda_boot":       true,
+            "supports_sda_root":       true,
+            "version":                 "19.0",
+            "supports_backup": true,
+            "url":             "http://konstakang.com/devices/rpi4/",
+            "group":           "General",
+            "download_size":   496867888,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4/lineage19-rpi4.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4/boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4/system.img.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4/vendor.img.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/lineage19-rpi4/userdata.tar.xz"
+            ],
+            "nominal_size": 6958
+        }
+,
+        {
+            "os_name":	    "manjaro-kde-rpi4",
+            "description":  "manjaro-kde-rpi4 16.0 for RPi4",
+            "release_date": "2020-04-03",
+            "supported_models": [
+                "Pi 4 Model B Rev"
+            ],
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "supports_sda_boot": true,
+            "supports_sda_root": true,
+            "group":           "General",
+            "download_size":    995280276,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/manjaro-kde-rpi4/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/manjaro-kde-rpi4/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/manjaro-kde-rpi4/manjaro-kde-rpi4.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/manjaro-kde-rpi4/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/manjaro-kde-rpi4/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/manjaro-kde-rpi4/boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/manjaro-kde-rpi4/root.tar.xz"
+            ],
+            "nominal_size": 5007
+        }
+,
+        {
+            "os_name":	    "manjaro-xfce-rpi4",
+            "description":  "manjaro-xfce-rpi4 16.0 for RPi4",
+            "release_date": "2020-04-03",
+            "supported_models": [
+                "Pi 4 Model B Rev"
+            ],
+            "supports_usb_boot": false,
+            "supports_usb_root": true,
+            "supports_sda_boot": true,
+            "supports_sda_root": true,
+            "group":           "General",
+            "download_size":    788536836,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/manjaro-xfce-rpi4.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/manjaro-xfce-rpi4/root.tar.xz"
+            ],
+            "nominal_size": 4371
+        }
+,
+        {
+            "os_name":	     "moode",
+            "description":  "moode 7.6.1 Audiophile-quality music playback for the wonderful Raspberry Pi family of single board computers",
+            "release_date": "2021-12-17",
+            "version":      "7.6.1",
+            "supported_models": [
+                "Pi Model",
+                "Pi 2",
+                "Pi Zero",
+                "Pi 3",
+                "Pi Compute Module 3",
+                "Pi 4"
+            ],
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "group":            "Media",
+            "download_size":    775997432,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/moode/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/moode/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/moode/moode.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/moode/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/moode/partition_setup.sh",
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn/os/moode/boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn/os/moode/root.tar.xz"
+            ],
+            "nominal_size": 4160
+        }
+,
+        {
+            "os_name":	    "OpenPlotter",
+            "description":  "v0.10.0alpha. The open-source sailing platform for ARM computers",
+            "release_date": "2017-03-02",
+            "feature_level": 0,
+            "supported_models": [
+                "Pi 2",
+                "Pi 3 Model B Rev"
+            ],
+            "url":              "http://www.sailoog.com/",
+            "group":            "General",
+            "os_info":          "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter/os.json",
+            "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter/partitions.json",
+            "icon":             "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter/OpenPlotter.png",
+            "marketing_info":   "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter/marketing.tar",
+            "partition_setup":  "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter/partition_setup.sh",
+            "tarballs": [
+                                "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter/boot.tar.xz",
+                                "http://downloads.sourceforge.net/project/pinn/os/OpenPlotter/root.tar.xz"
+            ],
+            "nominal_size": 4067
+        }
+,
+        {
+            "os_name": "OSMC_Pi4",
+            "description": "A fast and feature filled open source media center",
+            "feature_level": 0,
+            "group": "Media",
+            "icon": "http://download.osmc.tv/installers/noobs/NOOBS-Logo-2.png",
+            "marketing_info": "http://download.osmc.tv/installers/noobs/marketing.tar",
+            "nominal_size": 2128,
+            "os_info": "http://download.osmc.tv/installers/noobs/os-pi4.json",
+            "partition_setup": "http://download.osmc.tv/installers/noobs/partition_setup.sh",
+            "partitions_info": "http://download.osmc.tv/installers/noobs/partitions-pi4.json",
+            "release_date": "2021-08-08",
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+                "Pi 4"
+            ],
+            "tarballs": [
+                "http://download.osmc.tv/installers/noobs/boot-rbp4.tar.xz",
+                "http://download.osmc.tv/installers/noobs/root-rbp4.tar.xz"
+            ]
+        }
+,
+        {
+            "os_name": "piCorePlayer",
+            "description": "A Squeezebox Audio Device",
+            "release_date": "2021-12-05",
+            "feature_level": 0,
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082",
+            "supported_models": [
+                "Pi Model",
+                "Pi 2",
+                "Pi Zero",
+                "Pi 3",
+                "Pi Compute Module",
+                "Pi 4"
+            ],
+            "supports_backup":  true,
+            "url":              "https://www.picoreplayer.org/",
+            "group":            "Media",
+            "download_size":    51657816,
+            "os_info":          "http://downloads.sourceforge.net/project/pinn/os/piCorePlayer/os.json",
+            "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/piCorePlayer/partitions.json",
+            "icon":             "http://downloads.sourceforge.net/project/pinn/os/piCorePlayer/piCorePlayer.png",
+            "marketing_info":   "http://downloads.sourceforge.net/project/pinn/os/piCorePlayer/marketing.tar",
+            "partition_setup":  "http://downloads.sourceforge.net/project/pinn/os/piCorePlayer/partition_setup.sh",
+            "tarballs": [
+                                "http://downloads.sourceforge.net/project/pinn/os/piCorePlayer/boot.tar.xz",
+                                "http://downloads.sourceforge.net/project/pinn/os/piCorePlayer/root.tar.xz"
+            ],
+            "nominal_size": 123
+        }
+,
+        {
+            "os_name": "piCorePlayer64",
+            "description": "A Squeezebox Audio Device",
+            "release_date": "2021-12-05",
+            "feature_level": 0,
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082",
+            "supported_models": [
+                "Pi Zero 2",
+                "Pi 3",
+                "Pi Compute Module 3",
+                "Pi Compute Module 4",
+                "Pi 4"
+            ],
+            "supports_backup":  true,
+            "url":              "https://www.picoreplayer.org/",
+            "group":            "Media",
+            "download_size":    30049104,
+            "os_info":          "http://downloads.sourceforge.net/project/pinn/os/piCorePlayer64/os.json",
+            "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/piCorePlayer64/partitions.json",
+            "icon":             "http://downloads.sourceforge.net/project/pinn/os/piCorePlayer64/piCorePlayer64.png",
+            "marketing_info":   "http://downloads.sourceforge.net/project/pinn/os/piCorePlayer64/marketing.tar",
+            "partition_setup":  "http://downloads.sourceforge.net/project/pinn/os/piCorePlayer64/partition_setup.sh",
+            "tarballs": [
+                                "http://downloads.sourceforge.net/project/pinn/os/piCorePlayer64/boot.tar.xz",
+                                "http://downloads.sourceforge.net/project/pinn/os/piCorePlayer64/root.tar.xz"
+            ],
+            "nominal_size": 123
+        }
+,
+
+        {
+            "os_name":	    "piratebox1",
+            "description":  "A piratebox1 Linux port for ARM devices RPi0/1",
+            "release_date": "2018-02-27",
+            "feature_level": 35644412,
+            "supported_models": [
+                "Pi Model",
+                "Pi Compute Module",
+              "Pi Zero W Rev",
+                "Pi Zero Rev"
+            ],
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "group":           "General",
+            "download_size":    337795140,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/piratebox1/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/piratebox1/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/piratebox1/piratebox1.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/piratebox1/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/piratebox1/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/piratebox1/boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/piratebox1/piratebox.tar.xz"
+            ],
+            "nominal_size": 1987
+        }
+,
+        {
+            "os_name":	    "piratebox2",
+            "description":  "A piratebox2 Linux port for ARM devices RPi2/3",
+            "release_date": "2018-05-11",
+            "feature_level": 0,
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+                "Pi 2",
+                "Pi 3"
+            ],
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "group":           "General",
+            "download_size":    351957056,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/piratebox2/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/piratebox2/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/piratebox2/piratebox2.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/piratebox2/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/piratebox2/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/piratebox2/boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/piratebox2/piratebox.tar.xz"
+            ],
+            "nominal_size": 1987
+        }
+,
+       {
+            "os_name":         "PiTop",
+            "description":     "Pi-Top OS for the Pi2/Pi3",
+            "release_date":    "2018-07-09",
+            "feature_level":   0,
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+               "Pi 2",
+                "Pi 3 Model B Rev",
+                "Pi 3 Model B Plus Rev"
+            ],
+            "url":             "https://pi-top.com/get-started",
+            "group":           "Education",
+            "download_size":    1356284612,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/PiTop/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/PiTop/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/PiTop/PiTop.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/PiTop/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/PiTop/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/PiTop/boot_pitop.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/PiTop/root_pitop.tar.xz"
+            ],
+            "nominal_size": 4797
+        }
+,
+        {
+            "os_name":	    "playpiper",
+            "description":  "v2.6.0  for the piper computer kit",
+            "release_date": "2020-11-11",
+            "supported_models": [
+                "Pi 2",
+                "Pi 3",
+                "Pi Compute Module 3"
+            ],
+            "url":             "https://www.playpiper.com/",
+            "group":           "Education",
+            "download_size":   2256003392,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/playpiper/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/playpiper/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/playpiper/playpiper.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/playpiper/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/playpiper/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/playpiper/boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/playpiper/root.tar.xz"
+            ],
+            "nominal_size": 7492
+        }
+,
+        {
+            "os_name":	    "quirky",
+            "description":  "Quirky is a Puppy Linux based distro (small)",
+            "release_date": "2016-12-13",
+            "feature_level": 0,
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+                "Pi 2",
+                "Pi 3 Model B Rev"
+            ],
+            "supports_usb_boot": false,
+            "url":             "http://barryk.org/quirky/",
+            "group":           "Minimal",
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/quirky/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/quirky/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/quirky/quirky.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/quirky/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/quirky/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/quirky/boot_quirky.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/quirky/root_quirky.tar.xz"
+            ],
+            "nominal_size": 6931
+        }
+
+,
+        {
+            "os_name":	    "raspberry-vi",
+            "description":  "Raspbian for the Visually Impaired using RPi0/1/2/3",
+            "release_date": "2017-03-10",
+            "feature_level": 35644412,
+            "supported_models": [
+                "Pi Model",
+                "Pi Compute Module",
+              "Pi Zero W Rev",
+                "Pi Zero Rev",
+                "Pi 2",
+                "Pi 3 Model B Rev"
+            ],
+            "supports_usb_root": false,
+            "url":             "http://www.raspberryvi.org/stories/index.html",
+            "group":           "General",
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/raspberry-vi/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/raspberry-vi/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/raspberry-vi/raspberry-vi.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/raspberry-vi/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/raspberry-vi/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/raspberry-vi/boot_raspvi.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/raspberry-vi/root_raspvi.tar.xz"
+            ],
+            "nominal_size": 3382
+        }
+,
+        {
+            "os_name":	    "Raspex",
+            "description":  "Raspex with LXDE based on Ubuntu 18.04 LTS",
+            "release_date": "2018-03-28",
+            "feature_level": 0,
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+                "Pi 2",
+                "Pi 3 Model B Rev",
+                "Pi 3 Model B Plus Rev"
+            ],
+            "supports_usb_boot":false,
+            "supports_usb_root":false,
+            "url":             "http://raspex.exton.se/?p=843",
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/Raspex/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/Raspex/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/Raspex/Raspex.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/Raspex/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/Raspex/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/Raspex/boot_raspx.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/Raspex/root_raspx.tar.xz"
+            ],
+            "nominal_size": 4019
+        }
+,
+        {
+            "os_name":	    "Raspex4",
+            "description":  "Raspex with LXDE based on Ubuntu 18.04 LTS for Pi4",
+            "release_date": "2018-03-28",
+            "feature_level": 0,
+            "group" : "Testing",
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+                "Pi 2",
+                "Pi 3",
+                "Pi 4"
+            ],
+            "url":             "http://raspex.exton.se/?p=843",
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/Raspex4/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/Raspex4/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/Raspex4/Raspex4.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/Raspex4/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/Raspex4/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/Raspex4/boot_raspx.tar.gz",
+                               "http://downloads.sourceforge.net/project/pinn/os/Raspex4/root_raspx.tar.gz"
+            ],
+            "nominal_size": 4019
+        }
+,
+        {
+            "description": "The retro-gaming OS! An all-in-one, plug-n-play retro-gaming console, supporting 100+ gaming systems!",
+            "icon": "https://upgrade.recalbox.com/latest/noobs/recalbox.png",
+            "marketing_info": "https://upgrade.recalbox.com/latest/noobs/marketing.tar",
+            "download_size": 656029580,
+            "nominal_size": 7168,
+            "os_info": "http://downloads.sourceforge.net/project/pinn/os/Recalbox_-_Pi0-1/os.json",
+            "os_name": "Recalbox - Pi0-1",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/Recalbox_-_Pi0-1/partitions.json",
+            "release_date": "2022-01-30",
+            "group" : "Games",
+            "supports_backup" : "update",
+            "url" : "https://www.recalbox.com/",
+            "supported_models": [
+                "Pi Model",
+                "Pi Compute Module Rev",
+                "Pi Zero Rev",
+                "Pi Zero W Rev"
+            ],
+            "tarballs": [
+                "https://upgrade.recalbox.com/latest/noobs/rpi1/recalbox-rpi1.tar.xz"
+            ],
+            "version": "8.0.1-Electron"
+        }
+,
+        {
+            "description": "The retro-gaming OS! An all-in-one, plug-n-play retro-gaming console, supporting 100+ gaming systems!",
+            "icon": "https://upgrade.recalbox.com/latest/noobs/recalbox.png",
+            "marketing_info": "https://upgrade.recalbox.com/latest/noobs/marketing.tar",
+            "nominal_size": 7168,
+            "download_size": 882660856,
+            "os_info": "http://downloads.sourceforge.net/project/pinn/os/Recalbox_-_Pi2/os.json",
+            "os_name": "Recalbox - Pi2",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/Recalbox_-_Pi2/partitions.json",
+            "release_date": "2022-01-30",
+            "group" : "Games",
+            "supports_backup" : "update",
+            "url" : "https://www.recalbox.com/",
+            "supported_models": [
+                "Pi 2"
+            ],
+            "tarballs": [
+                "https://upgrade.recalbox.com/latest/noobs/rpi2/recalbox-rpi2.tar.xz"
+            ],
+            "version": "8.0.1-Electron"
+        }
+,
+        {
+            "description": "The retro-gaming OS! An all-in-one, plug-n-play retro-gaming console, supporting 100+ gaming systems!",
+            "icon": "https://upgrade.recalbox.com/latest/noobs/recalbox.png",
+            "marketing_info": "https://upgrade.recalbox.com/latest/noobs/marketing.tar",
+            "nominal_size": 7168,
+            "download_size": 1005136116,
+            "os_info": "http://downloads.sourceforge.net/project/pinn/os/Recalbox_-_Pi3/os.json",
+            "os_name": "Recalbox - Pi3",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/Recalbox_-_Pi3/partitions.json",
+            "release_date": "2022-01-30",
+            "group" : "Games",
+            "url" : "https://www.recalbox.com/",
+            "supported_models": [
+                "Pi Zero 2",
+                "Pi 3",
+                "Pi Compute Module 3"
+            ],
+            "tarballs": [
+                "https://upgrade.recalbox.com/latest/noobs/rpi3/recalbox-rpi3.tar.xz"
+            ],
+            "version": "8.0.2-Electron"
+        }
+,
+        {
+            "description": "The retro-gaming OS! An all-in-one, plug-n-play retro-gaming console, supporting 100+ gaming systems!",
+            "icon": "https://upgrade.recalbox.com/latest/noobs/recalbox.png",
+            "marketing_info": "https://upgrade.recalbox.com/latest/noobs/marketing.tar",
+            "nominal_size": 7168,
+            "download_size": 1010480012,
+            "os_info": "http://downloads.sourceforge.net/project/pinn/os/Recalbox_-_Pi4/os.json",
+            "os_name": "Recalbox - Pi4",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/Recalbox_-_Pi4/partitions.json",
+            "release_date": "2022-01-30",
+            "group" : "Games",
+            "url" : "https://www.recalbox.com/",
+            "supported_models": [
+                "Pi 4"
+            ],
+            "tarballs": [
+                "https://upgrade.recalbox.com/latest/noobs/rpi4/recalbox-rpi4.tar.xz"
+            ],
+            "version": "8.0.2-Electron"
+        }
+,
+        {
+            "os_name":	    "Retropie1",
+            "description":  "Retropie1 v4.7.1 gaming distro using Emulation Station for RPi1/Zero",
+            "release_date": "2020-11-04",
+            "feature_level": 35644412,
+            "supported_models": [
+                "Pi Model",
+                "Pi Compute Module",
+              "Pi Zero W Rev",
+                "Pi Zero Rev"
+            ],
+            "flavours": [
+                {
+                    "name": "Retropie1",
+                    "description": "Retropie v4.7.1 gaming distro using Emulation Station for RPi1/Zero"
+                },
+                {
+                    "name": "Retropie1 - dsi",
+                    "description": "Retropie v4.7.1 for RPi1/Zero for DSI that switches to HDMI"
+                }
+            ],
+            "supports_backup": true,
+            "url":             "https://retropie.org.uk/",
+            "group":           "Games",
+            "download_size":   541870664,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/Retropie1/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/Retropie1/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/Retropie1/Retropie1.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/Retropie1/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/Retropie1/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/Retropie1/boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/Retropie1/retropie.tar.xz"
+            ],
+            "nominal_size": 2794
+        }
+,
+        {
+            "os_name":	    "Retropie3",
+            "description":  "Retropie3 v4.7.1 gaming distro using Emulation Station for RPi2/3B+",
+            "release_date": "2020-11-04",
+            "feature_level": 0,
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+                "Pi 2",
+                "Pi 3"
+            ],
+            "url":             "https://retropie.org.uk/",
+            "group":           "Games",
+            "download_size":   538825420,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/Retropie3/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/Retropie3/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/Retropie3/Retropie3.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/Retropie3/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/Retropie3/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/Retropie3/boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/Retropie3/retropie.tar.xz"
+            ],
+            "nominal_size": 2848
+        }
+,
+        {
+            "os_name":	    "Retropie4",
+            "description":  "Retropie4 v4.7.1 gaming distro using Emulation Station for RPi4",
+            "release_date": "2020-11-04",
+            "feature_level": 0,
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+                "Pi 4"
+            ],
+            "url":             "https://retropie.org.uk/",
+            "group":           "Games",
+            "download_size":   539674500,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/Retropie4/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/Retropie4/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/Retropie4/Retropie4.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/Retropie4/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/Retropie4/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/Retropie4/boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/Retropie4/retropie.tar.xz"
+            ],
+            "nominal_size": 2858
+        }
+,
+        {
+            "os_name":	    "rtandroid",
+            "description":  "RTAndroid 7.1.1 Nougat for RPI3",
+            "release_date": "2017-03-15",
+            "feature_level": 0,
+            "supported_hex_revisions": "2082",
+            "supported_models": [
+                "Pi 3 Model B Rev"
+            ],
+            "url":             "https://rtandroid.embedded.rwth-aachen.de/downloads/raspberry-pi/",
+            "group":           "General",
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/rtandroid/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/rtandroid/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/rtandroid/rtandroid.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/rtandroid/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/rtandroid/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/rtandroid/boot_and.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/rtandroid/system.img.gz"
+            ],
+            "nominal_size": 4566
+        }
+
+,
+        {
+            "os_name":	    "solydx",
+            "description":  "Solydxk for RPI2/3",
+            "release_date": "2017-01-01",
+            "feature_level": 0,
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+                "Pi 2",
+                "Pi 3 Model B Rev"
+            ],
+            "supports_usb_root": false,
+            "url":              "https://solydxk.com/downloads/solydx-rpi/",
+            "group":            "General",
+            "os_info":          "http://downloads.sourceforge.net/project/pinn/os/solydx/os.json",
+            "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/solydx/partitions.json",
+            "icon":             "http://downloads.sourceforge.net/project/pinn/os/solydx/solydx.png",
+            "marketing_info":   "http://downloads.sourceforge.net/project/pinn/os/solydx/marketing.tar",
+            "partition_setup":  "http://downloads.sourceforge.net/project/pinn/os/solydx/partition_setup.sh",
+            "tarballs": [
+                                "http://downloads.sourceforge.net/project/pinn/os/solydx/boot_solydxk.tar.xz",
+                                "http://downloads.sourceforge.net/project/pinn/os/solydx/root_solydxk.tar.xz"
+            ],
+            "nominal_size":     3515
+        }
+
+,
+        {
+            "os_name":	    "solydx64",
+            "description":  "Solydxk64 for RPI3",
+            "release_date": "2019-03-20",
+            "feature_level": 0,
+            "supported_models": [
+                "Pi 3"
+            ],
+            "supports_usb_root": false,
+            "supports_backup": true,
+            "url":              "https://solydxk.com/downloads/community-editions",
+            "group":            "General",
+            "download_size":    969156112,
+            "os_info":          "http://downloads.sourceforge.net/project/pinn/os/solydx64/os.json",
+            "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/solydx64/partitions.json",
+            "icon":             "http://downloads.sourceforge.net/project/pinn/os/solydx64/solydx64.png",
+            "marketing_info":   "http://downloads.sourceforge.net/project/pinn/os/solydx64/marketing.tar",
+            "partition_setup":  "http://downloads.sourceforge.net/project/pinn/os/solydx64/partition_setup.sh",
+            "tarballs": [
+                                "http://downloads.sourceforge.net/project/pinn/os/solydx64/boot_solydxk64.tar.xz",
+                                "http://downloads.sourceforge.net/project/pinn/os/solydx64/root_solydxk64.tar.xz"
+            ],
+            "nominal_size":     14900
+        }
+,
+        {
+            "os_name":	    "twister",
+            "description":  "A themed Raspberry Pi OS Desktop merged with gaming v2.1.2",
+            "release_date": "2021-06-22",
+            "supported_models": [
+                "Pi 3",
+                "Pi Zero 2",
+                "Pi Compute Module 3",
+                "Pi 4"
+            ],
+            "url":             "https://twisteros.com/",
+            "group":           "General",
+            "download_size":   2216570420,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/twister/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/twister/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/twister/twister.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/twister/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/twister/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/twister/boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/twister/twister.tar.xz"
+            ],
+            "nominal_size": 8275
+        }
+,
+        {
+            "os_name":	    "ubuntu2010",
+            "description":  "ubuntu2010 v20.10 desktop for RPi4",
+            "release_date": "2020-10-15",
+            "supported_models": [
+                "Pi 4"
+            ],
+            "url":             "https://ubuntu/",
+            "group":           "General",
+            "download_size":   1348820088,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/ubuntu2010.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/marketing.tar",
+ 
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/system-boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/ubuntu2010/writable.tar.xz"
+            ],
+            "nominal_size": 8153
+        }
+,
+        {
+            "os_name":	    "ubuntu2110",
+            "description":  "ubuntu2110 v21.10 desktop for RPi4",
+            "release_date": "2021-10-14",
+            "supported_models": [
+                "Pi Compute Module 4",
+                "Pi 4"
+            ],
+            "url":             "https://ubuntu/",
+            "group":           "General",
+            "download_size":   1647079948,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/ubuntu2110/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/ubuntu2110/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/ubuntu2110/ubuntu2110.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/ubuntu2110/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/ubuntu2110/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/ubuntu2110/system-boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/ubuntu2110/writable.tar.xz"
+            ],
+            "nominal_size": 8727
+        }
+,
+        {
+            "os_name":	    "ubuntuMate1604LTS",
+            "description": "Ubuntu Mate 16.04.2 LTS",
+            "release_date": "2016-11-05",
+            "feature_level": 0,
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+                "Pi 2",
+                "Pi 3 Model B Rev"
+            ],
+            "supports_usb_boot": false,
+            "url":              "https://ubuntu-mate.org/download/",
+            "group":            "General",
+            "os_info":          "http://downloads.sourceforge.net/project/pinn/os/ubuntuMate1604LTS/os.json",
+            "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/ubuntuMate1604LTS/partitions.json",
+            "icon":             "http://downloads.sourceforge.net/project/pinn/os/ubuntuMate1604LTS/ubuntuMate1604LTS.png",
+            "marketing_info":   "http://downloads.sourceforge.net/project/pinn/os/ubuntuMate1604LTS/marketing.tar",
+            "partition_setup":  "http://downloads.sourceforge.net/project/pinn/os/ubuntuMate1604LTS/partition_setup.sh",
+            "tarballs": [
+                                "http://downloads.sourceforge.net/project/pinn/os/ubuntuMate1604LTS/boot_ub.tar.xz",
+                                "http://downloads.sourceforge.net/project/pinn/os/ubuntuMate1604LTS/root_ub.tar.xz"
+            ],
+            "nominal_size": 4568
+        }
+,
+        {
+            "os_name":	    "ubuntumate2010_64",
+            "description":  "ubuntumate2010_64 v20.10 for RPi 3/4",
+            "release_date": "2020-10-15",
+            "supported_models": [
+                "Pi 3",
+                "Pi Compute Module 3",
+                "Pi 4"
+            ],
+            "url":             "https://ubuntu-mate.org/ports/raspberry-pi/",
+            "group":           "General",
+            "download_size":   1189870456,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2010_64/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2010_64/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2010_64/ubuntumate2010_64.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2010_64/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2010_64/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2010_64/system-boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2010_64/writable.tar.xz"
+            ],
+            "nominal_size": 5574
+        }
+,
+        {
+            "os_name":	    "ubuntumate2110_64",
+            "description":  "ubuntumate2110 64-bit v21.10 for RPi 3/4",
+            "release_date": "2021-10-15",
+            "supported_models": [
+                "Pi 3",
+                "Pi Compute Module 3",
+                "Pi 4"            
+            ],            
+            "url":             "https://ubuntu-mate.org/ports/raspberry-pi/",
+            "group":           "General",
+            "download_size":   1618766380,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110_64/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110_64/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110_64/ubuntumate2110_64.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110_64/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110_64/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110_64/system-boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110_64/writable.tar.xz"
+            ],
+            "nominal_size": 6512
+        }
+,
+        {
+            "os_name":	    "ubuntumate2110",
+            "description":  "ubuntumate2110 v21.10 for RPi 3/4",
+            "release_date": "2021-10-15",
+            "supported_models": [
+                "Pi 3",
+                "Pi Compute Module 3",
+                "Pi 4"
+            ],
+            "url":             "https://ubuntu-mate.org/ports/raspberry-pi/",
+            "group":           "General",
+            "download_size":   1563079616,
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110/ubuntumate2110.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110/system-boot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/ubuntumate2110/writable.tar.xz"
+            ],
+            "nominal_size": 6512
+        }
+,
+        {
+            "os_name":	    "void1",
+            "description":  "A void1 Linux port for ARM devices RPi1",
+            "release_date": "2016-04-20",
+            "feature_level": 35644412,
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,13,14,19,0092",
+            "supported_models": [
+               "Pi Model",
+               "Pi Compute Module",
+              "Pi Zero W Rev",
+               "Pi Zero Rev"
+            ],
+            "supports_usb_root": false,
+            "url":              "http://http://www.voidlinux.eu/",
+            "group":            "Minimal",
+            "os_info":          "http://downloads.sourceforge.net/project/pinn/os/void1/os.json",
+            "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/void1/partitions.json",
+            "icon":             "http://downloads.sourceforge.net/project/pinn/os/void1/void1.png",
+            "marketing_info":   "http://downloads.sourceforge.net/project/pinn/os/void1/marketing.tar",
+            "partition_setup":  "http://downloads.sourceforge.net/project/pinn/os/void1/partition_setup.sh",
+            "nominal_size":     396,
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/void1/boot_void.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/void1/root_void.tar.xz"
+            ]
+        }
+
+,
+        {
+            "os_name":	    "void1_musl",
+            "description":  "A void1_musl Linux port for ARM devices RPi1",
+            "release_date": "2016-04-20",
+            "feature_level": 35644412,
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,13,14,19,0092",
+            "supported_models": [
+               "Pi Model",
+               "Pi Compute Module",
+              "Pi Zero W Rev",
+               "Pi Zero Rev"
+            ],
+            "supports_usb_root": false,
+            "url":              "http://http://www.voidlinux.eu/",
+            "group":            "Minimal",
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/void1_musl/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/void1_musl/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/void1_musl/void1_musl.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/void1_musl/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/void1_musl/partition_setup.sh",
+            "nominal_size": 374,
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/void1_musl/boot_voidm.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/void1_musl/root_voidm.tar.xz"
+            ]
+        }
+
+,
+        {
+            "os_name":	    "void2",
+            "description":  "A Void Linux port for ARM devices RPi2/3",
+            "release_date": "2016-04-20",
+            "feature_level":   0,
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+               "Pi 2",
+               "Pi 3 Model B Rev"
+            ],
+            "supports_usb_root": false,
+            "url":              "http://http://www.voidlinux.eu/",
+            "group":            "Minimal",
+            "os_info":          "http://downloads.sourceforge.net/project/pinn/os/void2/os.json",
+            "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/void2/partitions.json",
+            "icon":             "http://downloads.sourceforge.net/project/pinn/os/void2/void2.png",
+            "marketing_info":   "http://downloads.sourceforge.net/project/pinn/os/void2/marketing.tar",
+            "partition_setup":  "http://downloads.sourceforge.net/project/pinn/os/void2/partition_setup.sh",
+            "tarballs": [
+                                "http://downloads.sourceforge.net/project/pinn/os/void2/boot_void.tar.xz",
+                                "http://downloads.sourceforge.net/project/pinn/os/void2/root_void.tar.xz"
+            ],
+            "nominal_size":  396
+        }
+
+,
+        {
+            "os_name":	    "void2_musl",
+            "description":  "A Void Linux port for ARM devices RPi2/3",
+            "release_date": "2016-04-20",
+            "feature_level":   0,
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+               "Pi 2",
+               "Pi 3 Model B Rev"
+            ],
+            "supports_usb_root": false,
+            "url":              "http://http://www.voidlinux.eu/",
+            "group":            "Minimal",
+            "os_info":          "http://downloads.sourceforge.net/project/pinn/os/void2_musl/os.json",
+            "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/void2_musl/partitions.json",
+            "icon":             "http://downloads.sourceforge.net/project/pinn/os/void2_musl/void2_musl.png",
+            "marketing_info":   "http://downloads.sourceforge.net/project/pinn/os/void2_musl/marketing.tar",
+            "partition_setup":  "http://downloads.sourceforge.net/project/pinn/os/void2_musl/partition_setup.sh",
+            "tarballs": [
+                                "http://downloads.sourceforge.net/project/pinn/os/void2_musl/boot_voidm.tar.xz",
+                                "http://downloads.sourceforge.net/project/pinn/os/void2_musl/root_voidm.tar.xz"
+            ],
+            "nominal_size":     374
+        }
+,
+        {
+            "os_name":	    "XBian_RPi1",
+            "description":  "XBian is small, fast and lightweight media center distribution",
+            "release_date": "2022-02-11",
+            "feature_level": 35644412,
+            "supported_models": [
+                "Pi Model",
+                "Pi Compute Module",
+                "Pi Zero W Rev",
+                "Pi Zero Rev"
+            ],
+            "url":              "http://www.xbian.org/",
+            "group":            "Media",
+            "download_size":    315198768,
+            "os_info":          "http://downloads.sourceforge.net/project/pinn/os/XBian_RPi1/os.json",
+            "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/XBian_RPi1/partitions.json",
+            "icon":             "http://downloads.sourceforge.net/project/pinn/os/XBian_RPi1/XBian_RPi1.png",
+            "marketing_info":   "http://downloads.sourceforge.net/project/pinn/os/XBian_RPi1/marketing.tar",
+            "partition_setup":  "http://downloads.sourceforge.net/project/pinn/os/XBian_RPi1/partition_setup.sh",
+            "tarballs": [
+                                "http://downloads.sourceforge.net/project/xbian/noobs/xbianboot-rpi.tar.xz",
+                                "http://downloads.sourceforge.net/project/xbian/noobs/xbianroot-rpi.xz"
+            ],
+            "nominal_size":     865
+        }
+,
+        {
+            "os_name":	    "XBian_RPi3",
+            "description":  "XBian is small, fast and lightweight media center distribution",
+            "release_date": "2022-02-18",
+            "feature_level": 0,
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+                "Pi 2",
+                "Pi Zero 2",
+                "Pi 4",
+                "Pi 3 Model B Rev",
+                "Pi 3 Model B Plus Rev"
+            ],
+            "url":              "http://www.xbian.org/",
+            "group":            "Media",
+            "os_info":          "http://downloads.sourceforge.net/project/pinn/os/XBian_RPi3/os.json",
+            "partitions_info":  "http://downloads.sourceforge.net/project/pinn/os/XBian_RPi3/partitions.json",
+            "icon":             "http://downloads.sourceforge.net/project/pinn/os/XBian_RPi3/XBian_RPi3.png",
+            "marketing_info":   "http://downloads.sourceforge.net/project/pinn/os/XBian_RPi3/marketing.tar",
+            "partition_setup":  "http://downloads.sourceforge.net/project/pinn/os/XBian_RPi3/partition_setup.sh",
+            "tarballs": [
+                                "http://downloads.sourceforge.net/project/xbian/noobs/xbianboot-rpi4.tar.xz",
+                                "http://downloads.sourceforge.net/project/xbian/noobs/xbianroot-rpi4.xz"
+            ],
+            "nominal_size":     864
+        }
+,
+        {
+            "os_name":	    "openelec_rpi1",
+            "description":  "OpenELEC is a fast and user-friendly Kodi Entertainment Center distribution.",
+            "release_date": "2016-04-30",
+            "feature_level": 35644412,
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,0092",
+            "supported_models": [
+              "Pi Model",
+              "Pi Compute Module",
+              "Pi Zero W Rev",
+              "Pi Zero Rev"
+            ],
+            "url":             "http://openelec.tv/",
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi1/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi1/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi1/openelec_rpi1.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi1/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi1/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi1/system.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi1/storage.tar.xz"
+            ],
+            "nominal_size": 541
+        }
+,
+        {
+            "os_name":	    "openelec_rpi2",
+            "description":  "A openelec_rpi Linux port for ARM devices RPi2/3",
+            "release_date": "2017-04-30",
+            "feature_level": 0,
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+                "Pi 2",
+                "Pi 3 Model B Rev"
+            ],
+            "url":             "http://openelec.tv/",
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi2/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi2/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi2/openelec_rpi2.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi2/marketing.tar",
+            "partition_setup": "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi2/partition_setup.sh",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi2/system.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/openelec_rpi2/storage.tar.xz"
+            ],
+            "nominal_size": 541
+        }
+,
+        {
+            "os_name":	    "ProjectSpace",
+            "description":  "A Project Space used to partition the SD card equally.",
+            "release_date": "2018-05-14",
+            "feature_level": 0,
+            "group":         "Utility",
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+                "Pi Zero",
+                "Pi Model",
+                "Pi Compute Module",
+                "Pi 2",
+                "Pi 3",
+                "Pi 4"
+            ],
+            "url":             "https://github.com/procount/pinn/blob/master/README_PINN.md#project-spaces",
+            "flavours": [
+              {
+                "name": "ProjectSpace - 1",
+                "description": "A Project Space to partition the SD card equally",
+                "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
+              },
+              {
+                "name": "ProjectSpace - 2",
+                "description": "A Project Space to partition the SD card equally",
+                "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
+              },
+              {
+                "name": "ProjectSpace - 3",
+                "description": "A Project Space to partition the SD card equally",
+                "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
+              },
+              {
+                "name": "ProjectSpace - 4",
+                "description": "A Project Space to partition the SD card equally",
+                "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
+              },
+              {
+                "name": "ProjectSpace - 5",
+                "description": "A Project Space to partition the SD card equally",
+                "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
+              },
+              {
+                "name": "ProjectSpace - 6",
+                "description": "A Project Space to partition the SD card equally",
+                "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
+              },
+              {
+                "name": "ProjectSpace - 7",
+                "description": "A Project Space to partition the SD card equally",
+                "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
+              },
+              {
+                "name": "ProjectSpace - 8",
+                "description": "A Project Space to partition the SD card equally",
+                "icon":        "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png"
+              }
+            ],
+            "os_info":         "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/os.json",
+            "partitions_info": "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/partitions.json",
+            "icon":            "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/ProjectSpace.png",
+            "marketing_info":  "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/marketing.tar",
+            "tarballs": [
+                               "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/prjboot.tar.xz",
+                               "http://downloads.sourceforge.net/project/pinn/os/ProjectSpace/prjroot.tar.xz"
+            ],
+            "nominal_size": 600
+        }
+
+  ]
+}
